@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Facture {{ invoice.reference }}</title>
+    <style>{{ inline_css }}</style>
+</head>
+
+<body>
+
+<div class="page">
+
+    <!-- ============================= -->
+    <!-- BANDEAU DE MARQUE -->
+    <!-- ============================= -->
+
+    <div class="brand-band">
+
+        <div class="brand-left">
+
+            {% if logo_path %}
+                <img
+                    src="{{ logo_path }}"
+                    alt="Logo"
+                    class="logo"
+                >
+            {% endif %}
+
+            <div class="brand-name">
+                {{ company.name }}
+            </div>
+
+        </div>
+
+        <div class="brand-right">
+
+            <div class="invoice-label">
+                FACTURE
+            </div>
+
+            <div class="invoice-ref">
+                {{ invoice.reference }}
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ============================= -->
+    <!-- STATUT + DATES -->
+    <!-- ============================= -->
+
+    <div class="meta-row">
+
+        <span class="status-badge status-{{ invoice.status|default('due') }}">
+            {{ invoice.status_label|default('EN ATTENTE DE PAIEMENT') }}
+        </span>
+
+        <div class="meta-dates">
+
+            <div>
+                <span>Émise le</span>
+                {{ invoice.date }}
+            </div>
+
+            {% if invoice.due_date %}
+            <div>
+                <span>Échéance</span>
+                {{ invoice.due_date }}
+            </div>
+            {% endif %}
+
+        </div>
+
+    </div>
+
+
+    <!-- ============================= -->
+    <!-- ÉMETTEUR / CLIENT -->
+    <!-- ============================= -->
+
+    <div class="parties">
+
+        <div class="party">
+
+            <h4>Émetteur</h4>
+
+            <p class="party-name">
+                {{ company.name }}
+            </p>
+
+            {% if company.address %}
+            <p class="party-detail">
+                {{ company.address }}
+            </p>
+            {% endif %}
+
+            {% if company.phone %}
+            <p class="party-detail">
+                {{ company.phone }}
+            </p>
+            {% endif %}
+
+        </div>
+
+        <div class="party">
+
+            <h4>Facturé à</h4>
+
+            <p class="party-name">
+                {{ client.name }}
+            </p>
+
+            {% if client.contact %}
+            <p class="party-detail">
+                Contact : {{ client.contact }}
+            </p>
+            {% endif %}
+
+            {% if client.telephone %}
+            <p class="party-detail">
+                Téléphone : {{ client.telephone }}
+            </p>
+            {% endif %}
+
+            {% if client.ville %}
+            <p class="party-detail">
+                Adresse : {{ client.ville }}
+            </p>
+            {% endif %}
+
+            {% if client.matricule_fiscal %}
+            <p class="party-detail">
+                Matricule fiscal : {{ client.matricule_fiscal }}
+            </p>
+            {% endif %}
+
+            {% if client.email %}
+            <p class="party-detail">
+                {{ client.email }}
+            </p>
+            {% endif %}
+
+        </div>
+
+    </div>
+
+
+    <!-- ============================= -->
+    <!-- ARTICLES -->
+    <!-- ============================= -->
+
+    <table class="items">
+
+        <thead>
+            <tr>
+                <th class="col-desc">Désignation</th>
+                <th class="col-num">Qté</th>
+                <th class="col-num">Prix unitaire HT</th>
+                <th class="col-num">Montant HT</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            {% for item in items %}
+
+            <tr>
+
+                <td class="col-desc">
+
+                    <span class="item-name">
+                        {{ item.name }}
+                    </span>
+
+                    {% if item.description %}
+                    <span class="item-sub">
+                        {{ item.description }}
+                    </span>
+                    {% endif %}
+
+                </td>
+
+                <td class="col-num">
+                    {{ item.qty }}
+                </td>
+
+                <td class="col-num">
+                    {{ "%.3f"|format(item.unit_price) }}
+                    {{ currency }}
+                </td>
+
+                <td class="col-num amount">
+                    {{ "%.3f"|format(item.qty * item.unit_price) }}
+                    {{ currency }}
+                </td>
+
+            </tr>
+
+            {% endfor %}
+
+        </tbody>
+
+    </table>
+
+
+    <!-- ============================= -->
+    <!-- TOTAUX + NOTES -->
+    <!-- ============================= -->
+
+    <div class="bottom-row">
+
+        <!-- NOTES / BANQUE -->
+
+        <div class="notes">
+
+            {% if notes %}
+            <h4>Remarques</h4>
+            <p>{{ notes }}</p>
+            {% endif %}
+
+            {% if company.bank_name or company.iban %}
+
+            <h4>Coordonnées bancaires</h4>
+
+            <p>
+                {% if company.bank_name %}
+                    {{ company.bank_name }}
+                {% endif %}
+
+                {% if company.iban %}
+                    <br>
+                    IBAN : {{ company.iban }}
+                {% endif %}
+            </p>
+
+            {% endif %}
+
+        </div>
+
+
+        <!-- TOTAUX -->
+
+        <div class="totals">
+
+            <!-- Sous-total HT avant remise -->
+
+            <div class="totals-line">
+                <span>Sous-total HT</span>
+                <span>
+                    {{ "%.3f"|format(subtotal) }}
+                    {{ currency }}
+                </span>
+            </div>
+
+            <!-- REMISE DE 5 % -->
+
+            <div class="totals-line">
+                <span>Remise (5 %)</span>
+                <span>
+                    - {{ "%.3f"|format(subtotal * 0.05) }}
+                    {{ currency }}
+                </span>
+            </div>
+
+            <!-- TOTAL HT APRES REMISE -->
+
+            <div class="totals-line">
+                <span>Total HT après remise</span>
+                <span>
+                    {{ "%.3f"|format(subtotal * 0.95) }}
+                    {{ currency }}
+                </span>
+            </div>
+
+            <!-- TVA CALCULEE APRES REMISE -->
+
+            <div class="totals-line">
+                <span>TVA ({{ vat_rate }} %)</span>
+                <span>
+                    {{ "%.3f"|format(subtotal * 0.95 * vat_rate / 100) }}
+                    {{ currency }}
+                </span>
+            </div>
+
+            <!-- TIMBRE FISCAL -->
+
+            <div class="totals-line">
+                <span>Timbre fiscal</span>
+                <span>
+                    1.000 {{ currency }}
+                </span>
+            </div>
+
+            <!-- TOTAL TTC HORS TIMBRE -->
+
+            <div class="totals-line">
+                <span>Total TTC</span>
+                <span>
+                    {{ "%.3f"|format(subtotal * 0.95 * (1 + vat_rate / 100)) }}
+                    {{ currency }}
+                </span>
+            </div>
+
+            <!-- NET A PAYER -->
+
+            <div class="totals-line grand">
+                <span>Net à payer</span>
+                <span>
+                    {{ "%.3f"|format(subtotal * 0.95 * (1 + vat_rate / 100) + 1) }}
+                    {{ currency }}
+                </span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ============================= -->
+    <!-- PIED DE PAGE -->
+    <!-- ============================= -->
+
+    <div class="footer">
+
+        <div class="footer-line"></div>
+
+        <p>
+            {{ company.name }}
+            MF:1492169S/A/M/000
+
+            {% if company.address %}
+                &nbsp;·&nbsp; {{ company.address }}
+            {% endif %}
+
+            {% if company.phone %}
+                &nbsp;·&nbsp; {{ company.phone }}
+            {% endif %}
+        </p>
+
+        <p class="thanks">
+            Merci pour votre confiance.
+        </p>
+
+    </div>
+
+</div>
+
+</body>
+</html>

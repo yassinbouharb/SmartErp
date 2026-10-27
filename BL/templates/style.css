@@ -1,0 +1,284 @@
+@page {
+    size: A4;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1d29;
+    font-size: 13px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+.page {
+    padding: 16mm 16mm 12mm;
+}
+
+/* ===== Bandeau de marque ===== */
+.brand-band {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 22px;
+    margin-bottom: 26px;
+    border-bottom: 2px solid #0f172a;
+}
+
+.brand-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo {
+    max-height: 42px;
+    max-width: 120px;
+    object-fit: contain;
+}
+
+.brand-name {
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    color: #0f172a;
+}
+
+.brand-right {
+    text-align: right;
+}
+
+.invoice-label {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #94a3b8;
+    margin-bottom: 4px;
+}
+
+.invoice-ref {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0f172a;
+    letter-spacing: -0.3px;
+}
+
+/* ===== Statut + dates ===== */
+.meta-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 10.5px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.status-paid {
+    background: #dcfce7;
+    color: #15803d;
+}
+
+.status-due {
+    background: #fef3c7;
+    color: #b45309;
+}
+
+.status-overdue {
+    background: #fee2e2;
+    color: #b91c1c;
+}
+
+.meta-dates {
+    display: flex;
+    gap: 32px;
+}
+
+.meta-dates div {
+    text-align: right;
+    font-size: 13px;
+    font-weight: 600;
+    color: #0f172a;
+}
+
+.meta-dates span {
+    display: block;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #94a3b8;
+    margin-bottom: 3px;
+}
+
+/* ===== Parties ===== */
+.parties {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 34px;
+}
+
+.party {
+    width: 50%;
+}
+
+.party h4 {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #94a3b8;
+    margin: 0 0 8px;
+}
+
+.party-name {
+    font-size: 14.5px;
+    font-weight: 700;
+    color: #0f172a;
+    margin: 0 0 4px;
+}
+
+.party-detail {
+    font-size: 12px;
+    color: #64748b;
+    margin: 0 0 2px;
+}
+
+/* ===== Tableau des articles ===== */
+table.items {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 6px;
+}
+
+table.items thead th {
+    text-align: left;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #94a3b8;
+    padding: 0 8px 10px;
+    border-bottom: 2px solid #0f172a;
+}
+
+table.items th.col-num,
+table.items td.col-num {
+    text-align: right;
+}
+
+table.items tbody td {
+    padding: 14px 8px;
+    border-bottom: 1px solid #eef1f5;
+    vertical-align: top;
+    font-size: 12.5px;
+    color: #334155;
+}
+
+.item-name {
+    display: block;
+    font-weight: 600;
+    color: #0f172a;
+}
+
+.item-sub {
+    display: block;
+    font-size: 11px;
+    color: #94a3b8;
+    margin-top: 2px;
+}
+
+td.amount {
+    font-weight: 700;
+    color: #0f172a;
+}
+
+/* ===== Ligne du bas : notes + totaux ===== */
+.bottom-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 28px;
+}
+
+.notes {
+    width: 55%;
+}
+
+.notes h4 {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #94a3b8;
+    margin: 0 0 6px;
+}
+
+.notes p {
+    font-size: 11.5px;
+    color: #64748b;
+    margin: 0 0 16px;
+}
+
+.totals {
+    width: 260px;
+}
+
+.totals-line {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    font-size: 12.5px;
+    color: #64748b;
+    border-bottom: 1px solid #eef1f5;
+}
+
+.totals-line.discount {
+    color: #16a34a;
+}
+
+.totals-line.grand {
+    border-bottom: none;
+    border-top: 2px solid #0f172a;
+    margin-top: 6px;
+    padding-top: 14px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+/* ===== Pied de page ===== */
+.footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer-line {
+    height: 1px;
+    background: #eef1f5;
+    margin-bottom: 16px;
+}
+
+.footer p {
+    font-size: 10.5px;
+    color: #94a3b8;
+    margin: 0 0 4px;
+}
+
+.footer .thanks {
+    font-weight: 600;
+    color: #475569;
+    margin-top: 6px;
+}

@@ -1,0 +1,4759 @@
+{
+  "nodes": [
+    {
+      "id": "bl_generer",
+      "label": "generer.py",
+      "file_type": "code",
+      "source_file": "BL/generer.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "bl_generer_creer_bl_data",
+      "label": "creer_BL_data()",
+      "file_type": "code",
+      "source_file": "BL/generer.py",
+      "source_location": "L11",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "bl_generer_image_to_base64",
+      "label": "image_to_base64()",
+      "file_type": "code",
+      "source_file": "BL/generer.py",
+      "source_location": "L50",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "bl_generer_py_path",
+      "label": "Path",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "bl_generer_render_html",
+      "label": "render_html()",
+      "file_type": "code",
+      "source_file": "BL/generer.py",
+      "source_location": "L58",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "bl_generer_html_to_pdf",
+      "label": "html_to_pdf()",
+      "file_type": "code",
+      "source_file": "BL/generer.py",
+      "source_location": "L68",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "bl_generer_generate_invoice",
+      "label": "generate_invoice()",
+      "file_type": "code",
+      "source_file": "BL/generer.py",
+      "source_location": "L95",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "bl_generer_rationale_51",
+      "label": "Intègre le logo directement dans le HTML pour éviter les soucis d'accès file://…",
+      "file_type": "rationale",
+      "source_file": "BL/generer.py",
+      "source_location": "L51",
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_init",
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "ai/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_agents_bl_agent",
+      "label": "BL_agent.py",
+      "file_type": "code",
+      "source_file": "ai/agents/BL_agent.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_agents_bl_agent_bl_agent",
+      "label": "BL_agent",
+      "file_type": "code",
+      "source_file": "ai/agents/BL_agent.py",
+      "source_location": "L14",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_agents_bl_agent_bl_agent_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "ai/agents/BL_agent.py",
+      "source_location": "L16",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_agents_bl_agent_bl_agent_extraire_commande",
+      "label": ".extraire_commande()",
+      "file_type": "code",
+      "source_file": "ai/agents/BL_agent.py",
+      "source_location": "L26",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_agents_bl_agent_bl_agent_creer_facture",
+      "label": ".creer_facture()",
+      "file_type": "code",
+      "source_file": "ai/agents/BL_agent.py",
+      "source_location": "L78",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_agents_invoice_agent",
+      "label": "invoice_agent.py",
+      "file_type": "code",
+      "source_file": "ai/agents/invoice_agent.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_agents_invoice_agent_invoiceagent",
+      "label": "InvoiceAgent",
+      "file_type": "code",
+      "source_file": "ai/agents/invoice_agent.py",
+      "source_location": "L13",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_agents_invoice_agent_invoiceagent_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "ai/agents/invoice_agent.py",
+      "source_location": "L15",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_agents_invoice_agent_invoiceagent_extraire_commande",
+      "label": ".extraire_commande()",
+      "file_type": "code",
+      "source_file": "ai/agents/invoice_agent.py",
+      "source_location": "L25",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_agents_invoice_agent_invoiceagent_creer_facture",
+      "label": ".creer_facture()",
+      "file_type": "code",
+      "source_file": "ai/agents/invoice_agent.py",
+      "source_location": "L75",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_agents_manager_agent",
+      "label": "manager_agent.py",
+      "file_type": "code",
+      "source_file": "ai/agents/manager_agent.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_agents_manager_agent_manageragent",
+      "label": "ManagerAgent",
+      "file_type": "code",
+      "source_file": "ai/agents/manager_agent.py",
+      "source_location": "L10",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_agents_manager_agent_manageragent_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "ai/agents/manager_agent.py",
+      "source_location": "L12",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_agents_manager_agent_manageragent_run",
+      "label": ".run()",
+      "file_type": "code",
+      "source_file": "ai/agents/manager_agent.py",
+      "source_location": "L31",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_agents_manager_agent_manageragent_detect_intent",
+      "label": ".detect_intent()",
+      "file_type": "code",
+      "source_file": "ai/agents/manager_agent.py",
+      "source_location": "L124",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_agents_problem_solving_agent",
+      "label": "problem_solving_agent.py",
+      "file_type": "code",
+      "source_file": "ai/agents/problem_solving_agent.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_agents_problem_solving_agent_problemsolveragent",
+      "label": "ProblemSolverAgent",
+      "file_type": "code",
+      "source_file": "ai/agents/problem_solving_agent.py",
+      "source_location": "L4",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_agents_problem_solving_agent_problemsolveragent_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "ai/agents/problem_solving_agent.py",
+      "source_location": "L6",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_agents_problem_solving_agent_problemsolveragent_run",
+      "label": ".run()",
+      "file_type": "code",
+      "source_file": "ai/agents/problem_solving_agent.py",
+      "source_location": "L9",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_agents_product_agent",
+      "label": "product_agent.py",
+      "file_type": "code",
+      "source_file": "ai/agents/product_agent.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_agents_product_agent_productagent",
+      "label": "ProductAgent",
+      "file_type": "code",
+      "source_file": "ai/agents/product_agent.py",
+      "source_location": "L11",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_agents_product_agent_productagent_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "ai/agents/product_agent.py",
+      "source_location": "L13",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_agents_product_agent_productagent_run",
+      "label": ".run()",
+      "file_type": "code",
+      "source_file": "ai/agents/product_agent.py",
+      "source_location": "L26",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_agents_product_agent_productagent_rechercher_produit",
+      "label": ".rechercher_produit()",
+      "file_type": "code",
+      "source_file": "ai/agents/product_agent.py",
+      "source_location": "L48",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_agents_product_agent_productagent_obtenir_prix",
+      "label": ".obtenir_prix()",
+      "file_type": "code",
+      "source_file": "ai/agents/product_agent.py",
+      "source_location": "L87",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_gemini_service",
+      "label": "gemini_service.py",
+      "file_type": "code",
+      "source_file": "ai/gemini_service.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_gemini_service_geminiservice",
+      "label": "GeminiService",
+      "file_type": "code",
+      "source_file": "ai/gemini_service.py",
+      "source_location": "L12",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_gemini_service_geminiservice_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "ai/gemini_service.py",
+      "source_location": "L15",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_gemini_service_geminiservice_chat",
+      "label": ".chat()",
+      "file_type": "code",
+      "source_file": "ai/gemini_service.py",
+      "source_location": "L26",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_gemini_services",
+      "label": "gemini_services.py",
+      "file_type": "code",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_gemini_services_geminiextractionerror",
+      "label": "GeminiExtractionError",
+      "file_type": "code",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L29",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "exception",
+      "label": "Exception",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_gemini_services_geminiservice",
+      "label": "GeminiService",
+      "file_type": "code",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L55",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_gemini_services_geminiservice_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L58",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_gemini_services_geminiservice_extraire_commande",
+      "label": ".extraire_commande()",
+      "file_type": "code",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L64",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_gemini_services_geminiservice_construire_prompt",
+      "label": "._construire_prompt()",
+      "file_type": "code",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L102",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_gemini_services_geminiservice_nettoyer_reponse",
+      "label": "._nettoyer_reponse()",
+      "file_type": "code",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L113",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_gemini_services_rationale_1",
+      "label": "GeminiService ============= Isole toute la logique d'appel à l'API Gemini :…",
+      "file_type": "rationale",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_gemini_services_rationale_30",
+      "label": "Levée quand Gemini ne renvoie pas un JSON exploitable ou invalide.",
+      "file_type": "rationale",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L30",
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_gemini_services_rationale_56",
+      "label": "Enrobe le client Gemini pour l'extraction de commandes en JSON structuré.",
+      "file_type": "rationale",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L56",
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_gemini_services_rationale_67",
+      "label": "Envoie la commande en langage naturel à Gemini et retourne un CommandeFacture…",
+      "file_type": "rationale",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L67",
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_prompts_bl_prompt",
+      "label": "BL_prompt.py",
+      "file_type": "code",
+      "source_file": "ai/prompts/BL_prompt.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_prompts_invoice_prompt",
+      "label": "invoice_prompt.py",
+      "file_type": "code",
+      "source_file": "ai/prompts/invoice_prompt.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_prompts_manager_prompt",
+      "label": "manager_prompt.py",
+      "file_type": "code",
+      "source_file": "ai/prompts/manager_prompt.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_prompts_problem_solving_prompt",
+      "label": "problem_solving_prompt.py",
+      "file_type": "code",
+      "source_file": "ai/prompts/problem_solving_prompt.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_prompts_product_prompt",
+      "label": "product_prompt.py",
+      "file_type": "code",
+      "source_file": "ai/prompts/product_prompt.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_tools_conversation_context",
+      "label": "conversation_context.py",
+      "file_type": "code",
+      "source_file": "ai/tools/conversation_context.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_tools_conversation_context_conversationcontext",
+      "label": "ConversationContext",
+      "file_type": "code",
+      "source_file": "ai/tools/conversation_context.py",
+      "source_location": "L5",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_tools_conversation_context_conversationcontext_add_user_message",
+      "label": ".add_user_message()",
+      "file_type": "code",
+      "source_file": "ai/tools/conversation_context.py",
+      "source_location": "L23",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_tools_conversation_context_conversationcontext_add_assistant_message",
+      "label": ".add_assistant_message()",
+      "file_type": "code",
+      "source_file": "ai/tools/conversation_context.py",
+      "source_location": "L29",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_tools_tool",
+      "label": "tool.py",
+      "file_type": "code",
+      "source_file": "ai/tools/tool.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_tools_tool_prompt_maker",
+      "label": "Prompt_Maker()",
+      "file_type": "code",
+      "source_file": "ai/tools/tool.py",
+      "source_location": "L5",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_tools_tool_erptools",
+      "label": "ERPTools",
+      "file_type": "code",
+      "source_file": "ai/tools/tool.py",
+      "source_location": "L21",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_tools_tool_erptools_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "ai/tools/tool.py",
+      "source_location": "L24",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_tools_tool_erptools_search_product",
+      "label": ".search_product()",
+      "file_type": "code",
+      "source_file": "ai/tools/tool.py",
+      "source_location": "L34",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "ai_tools_tool_erptools_create_invoice",
+      "label": ".create_invoice()",
+      "file_type": "code",
+      "source_file": "ai/tools/tool.py",
+      "source_location": "L64",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "config",
+      "label": "config.py",
+      "file_type": "code",
+      "source_file": "config.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "config_rationale_1",
+      "label": "Configuration du bot de facturation ==================================== Tu ne…",
+      "file_type": "rationale",
+      "source_file": "config.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "facture_generer",
+      "label": "generer.py",
+      "file_type": "code",
+      "source_file": "facture/generer.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "facture_generer_creer_facture_data",
+      "label": "creer_facture_data()",
+      "file_type": "code",
+      "source_file": "facture/generer.py",
+      "source_location": "L11",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "facture_generer_image_to_base64",
+      "label": "image_to_base64()",
+      "file_type": "code",
+      "source_file": "facture/generer.py",
+      "source_location": "L50",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "facture_generer_py_path",
+      "label": "Path",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "facture_generer_render_html",
+      "label": "render_html()",
+      "file_type": "code",
+      "source_file": "facture/generer.py",
+      "source_location": "L58",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "facture_generer_html_to_pdf",
+      "label": "html_to_pdf()",
+      "file_type": "code",
+      "source_file": "facture/generer.py",
+      "source_location": "L68",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "facture_generer_generate_invoice",
+      "label": "generate_invoice()",
+      "file_type": "code",
+      "source_file": "facture/generer.py",
+      "source_location": "L95",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "facture_generer_rationale_51",
+      "label": "Intègre le logo directement dans le HTML pour éviter les soucis d'accès file://…",
+      "file_type": "rationale",
+      "source_file": "facture/generer.py",
+      "source_location": "L51",
+      "_origin": "ast"
+    },
+    {
+      "id": "main",
+      "label": "main.py",
+      "file_type": "code",
+      "source_file": "main.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "models_article",
+      "label": "Article.py",
+      "file_type": "code",
+      "source_file": "models/Article.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "models_article_article",
+      "label": "Article",
+      "file_type": "code",
+      "source_file": "models/Article.py",
+      "source_location": "L7",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "models_article_py_basemodel",
+      "label": "BaseModel",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "models_article_py_field_validator",
+      "label": "field_validator",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "models_article_article_nom_produit_non_vide",
+      "label": ".nom_produit_non_vide()",
+      "file_type": "code",
+      "source_file": "models/Article.py",
+      "source_location": "L20",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "models_article_rationale_8",
+      "label": "Un article détecté dans la commande en langage naturel.",
+      "file_type": "rationale",
+      "source_file": "models/Article.py",
+      "source_location": "L8",
+      "_origin": "ast"
+    },
+    {
+      "id": "models_commandebl",
+      "label": "CommandeBL.py",
+      "file_type": "code",
+      "source_file": "models/CommandeBL.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "models_commandebl_devise",
+      "label": "Devise",
+      "file_type": "code",
+      "source_file": "models/CommandeBL.py",
+      "source_location": "L10",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "models_commandebl_py_str",
+      "label": "str",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "models_commandebl_py_enum",
+      "label": "Enum",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "models_commandebl_commandebl",
+      "label": "CommandeBL",
+      "file_type": "code",
+      "source_file": "models/CommandeBL.py",
+      "source_location": "L16",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "models_commandebl_py_basemodel",
+      "label": "BaseModel",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "models_commandebl_py_field_validator",
+      "label": "field_validator",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "models_commandebl_commandebl_client_non_vide",
+      "label": ".client_non_vide()",
+      "file_type": "code",
+      "source_file": "models/CommandeBL.py",
+      "source_location": "L25",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "models_commandebl_rationale_17",
+      "label": "Résultat structuré de l'extraction Gemini d'une commande client.",
+      "file_type": "rationale",
+      "source_file": "models/CommandeBL.py",
+      "source_location": "L17",
+      "_origin": "ast"
+    },
+    {
+      "id": "models_commandefacture",
+      "label": "CommandeFacture.py",
+      "file_type": "code",
+      "source_file": "models/CommandeFacture.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "models_commandefacture_devise",
+      "label": "Devise",
+      "file_type": "code",
+      "source_file": "models/CommandeFacture.py",
+      "source_location": "L10",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "models_commandefacture_py_str",
+      "label": "str",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "models_commandefacture_py_enum",
+      "label": "Enum",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "models_commandefacture_commandefacture",
+      "label": "CommandeFacture",
+      "file_type": "code",
+      "source_file": "models/CommandeFacture.py",
+      "source_location": "L16",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "models_commandefacture_py_basemodel",
+      "label": "BaseModel",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "models_commandefacture_py_field_validator",
+      "label": "field_validator",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "models_commandefacture_commandefacture_client_non_vide",
+      "label": ".client_non_vide()",
+      "file_type": "code",
+      "source_file": "models/CommandeFacture.py",
+      "source_location": "L25",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "models_commandefacture_rationale_17",
+      "label": "Résultat structuré de l'extraction Gemini d'une commande client.",
+      "file_type": "rationale",
+      "source_file": "models/CommandeFacture.py",
+      "source_location": "L17",
+      "_origin": "ast"
+    },
+    {
+      "id": "models_produitcatalogue",
+      "label": "ProduitCatalogue.py",
+      "file_type": "code",
+      "source_file": "models/ProduitCatalogue.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "models_produitcatalogue_produitcatalogue",
+      "label": "ProduitCatalogue",
+      "file_type": "code",
+      "source_file": "models/ProduitCatalogue.py",
+      "source_location": "L9",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "models_produitcatalogue_py_basemodel",
+      "label": "BaseModel",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "models_produitcatalogue_rationale_10",
+      "label": "Une ligne du catalogue produits (TblProduits).",
+      "file_type": "rationale",
+      "source_file": "models/ProduitCatalogue.py",
+      "source_location": "L10",
+      "_origin": "ast"
+    },
+    {
+      "id": "models_init",
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "models/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "models_client",
+      "label": "client.py",
+      "file_type": "code",
+      "source_file": "models/client.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "models_client_client",
+      "label": "Client",
+      "file_type": "code",
+      "source_file": "models/client.py",
+      "source_location": "L9",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "models_client_py_basemodel",
+      "label": "BaseModel",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast"
+    },
+    {
+      "id": "repositories_bl_repository",
+      "label": "BL_repository.py",
+      "file_type": "code",
+      "source_file": "repositories/BL_repository.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "repositories_bl_repository_blrepository",
+      "label": "BLRepository",
+      "file_type": "code",
+      "source_file": "repositories/BL_repository.py",
+      "source_location": "L9",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "repositories_bl_repository_blrepository_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "repositories/BL_repository.py",
+      "source_location": "L12",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "repositories_bl_repository_blrepository_ajouter_bl",
+      "label": ".ajouter_BL()",
+      "file_type": "code",
+      "source_file": "repositories/BL_repository.py",
+      "source_location": "L17",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "repositories_bl_repository_blrepository_prochaine_ref_bl",
+      "label": ".prochaine_ref_BL()",
+      "file_type": "code",
+      "source_file": "repositories/BL_repository.py",
+      "source_location": "L134",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "repositories_init",
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "repositories/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "repositories_client_repository",
+      "label": "client_repository.py",
+      "file_type": "code",
+      "source_file": "repositories/client_repository.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "repositories_client_repository_clientrepository",
+      "label": "ClientRepository",
+      "file_type": "code",
+      "source_file": "repositories/client_repository.py",
+      "source_location": "L8",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "repositories_client_repository_clientrepository_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "repositories/client_repository.py",
+      "source_location": "L10",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "repositories_client_repository_clientrepository_find_by_name",
+      "label": ".find_by_name()",
+      "file_type": "code",
+      "source_file": "repositories/client_repository.py",
+      "source_location": "L31",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "repositories_client_repository_clientrepository_update_balance",
+      "label": ".update_balance()",
+      "file_type": "code",
+      "source_file": "repositories/client_repository.py",
+      "source_location": "L46",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "repositories_client_repository_clientrepository_add",
+      "label": ".add()",
+      "file_type": "code",
+      "source_file": "repositories/client_repository.py",
+      "source_location": "L56",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "repositories_excel_repository",
+      "label": "excel_repository.py",
+      "file_type": "code",
+      "source_file": "repositories/excel_repository.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "repositories_facture_repository",
+      "label": "facture_repository.py",
+      "file_type": "code",
+      "source_file": "repositories/facture_repository.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "repositories_facture_repository_facturerepository",
+      "label": "FactureRepository",
+      "file_type": "code",
+      "source_file": "repositories/facture_repository.py",
+      "source_location": "L9",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "repositories_facture_repository_facturerepository_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "repositories/facture_repository.py",
+      "source_location": "L12",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "repositories_facture_repository_facturerepository_ajouter_facture",
+      "label": ".ajouter_facture()",
+      "file_type": "code",
+      "source_file": "repositories/facture_repository.py",
+      "source_location": "L17",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "repositories_facture_repository_facturerepository_prochaine_ref_facture",
+      "label": ".prochaine_ref_facture()",
+      "file_type": "code",
+      "source_file": "repositories/facture_repository.py",
+      "source_location": "L135",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "repositories_fournisseur_repository",
+      "label": "fournisseur_repository.py",
+      "file_type": "code",
+      "source_file": "repositories/fournisseur_repository.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "repositories_produit_repository",
+      "label": "produit_repository.py",
+      "file_type": "code",
+      "source_file": "repositories/produit_repository.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "repositories_produit_repository_produitrepository",
+      "label": "ProduitRepository",
+      "file_type": "code",
+      "source_file": "repositories/produit_repository.py",
+      "source_location": "L9",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "repositories_produit_repository_produitrepository_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "repositories/produit_repository.py",
+      "source_location": "L13",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "repositories_produit_repository_produitrepository_get_all_produits",
+      "label": ".get_all_produits()",
+      "file_type": "code",
+      "source_file": "repositories/produit_repository.py",
+      "source_location": "L24",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "repositories_produit_repository_produitrepository_rechercher_produit",
+      "label": ".rechercher_produit()",
+      "file_type": "code",
+      "source_file": "repositories/produit_repository.py",
+      "source_location": "L134",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "repositories_produit_repository_produitrepository_obtenir_produit",
+      "label": ".obtenir_produit()",
+      "file_type": "code",
+      "source_file": "repositories/produit_repository.py",
+      "source_location": "L175",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "repositories_produit_repository_produitrepository_obtenir_prix",
+      "label": ".obtenir_prix()",
+      "file_type": "code",
+      "source_file": "repositories/produit_repository.py",
+      "source_location": "L203",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "repositories_stock_repository",
+      "label": "stock_repository.py",
+      "file_type": "code",
+      "source_file": "repositories/stock_repository.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "repositories_vente_repository",
+      "label": "vente_repository.py",
+      "file_type": "code",
+      "source_file": "repositories/vente_repository.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "services_bl_service",
+      "label": "BL_service.py",
+      "file_type": "code",
+      "source_file": "services/BL_service.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "services_bl_service_blservice",
+      "label": "BLService",
+      "file_type": "code",
+      "source_file": "services/BL_service.py",
+      "source_location": "L4",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "services_bl_service_blservice_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "services/BL_service.py",
+      "source_location": "L6",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "services_bl_service_blservice_creer_bl",
+      "label": ".creer_BL()",
+      "file_type": "code",
+      "source_file": "services/BL_service.py",
+      "source_location": "L16",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "services_init",
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "services/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "services_client_service",
+      "label": "client_service.py",
+      "file_type": "code",
+      "source_file": "services/client_service.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "services_client_service_clientservice",
+      "label": "ClientService",
+      "file_type": "code",
+      "source_file": "services/client_service.py",
+      "source_location": "L7",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "services_client_service_clientservice_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "services/client_service.py",
+      "source_location": "L9",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "services_client_service_clientservice_ajouter_client",
+      "label": ".ajouter_client()",
+      "file_type": "code",
+      "source_file": "services/client_service.py",
+      "source_location": "L12",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "services_facture_service",
+      "label": "facture_service.py",
+      "file_type": "code",
+      "source_file": "services/facture_service.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "services_facture_service_factureservice",
+      "label": "FactureService",
+      "file_type": "code",
+      "source_file": "services/facture_service.py",
+      "source_location": "L4",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "services_facture_service_factureservice_init",
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "services/facture_service.py",
+      "source_location": "L6",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "services_facture_service_factureservice_creer_facture",
+      "label": ".creer_facture()",
+      "file_type": "code",
+      "source_file": "services/facture_service.py",
+      "source_location": "L16",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "utils",
+      "label": "utils.py",
+      "file_type": "code",
+      "source_file": "utils.py",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "utils_trouver_table",
+      "label": "trouver_table()",
+      "file_type": "code",
+      "source_file": "utils.py",
+      "source_location": "L4",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "utils_find_first_row",
+      "label": "find_first_row()",
+      "file_type": "code",
+      "source_file": "utils.py",
+      "source_location": "L18",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "utils_col",
+      "label": "col()",
+      "file_type": "code",
+      "source_file": "utils.py",
+      "source_location": "L35",
+      "_callable": true,
+      "_origin": "ast"
+    },
+    {
+      "id": "utils_rationale_5",
+      "label": "Retourne (feuille, table) en gérant le bug openpyxl où tables.items() peut…",
+      "file_type": "rationale",
+      "source_file": "utils.py",
+      "source_location": "L5",
+      "_origin": "ast"
+    },
+    {
+      "id": "bl_templates_template",
+      "label": "Bon de Livraison Template",
+      "file_type": "code",
+      "source_file": "BL/templates/template.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "HTML template for generating delivery notes (Bon de livraison) using Jinja2-style placeholders."
+    },
+    {
+      "id": "facture_templates_template",
+      "label": "Facture Template",
+      "file_type": "code",
+      "source_file": "facture/templates/template.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "HTML template for generating invoices (Facture) using Jinja2-style placeholders."
+    },
+    {
+      "id": "facture_output_fac_2026_02",
+      "label": "Invoice PDF FAC-2026-02",
+      "file_type": "document",
+      "source_file": "facture/output/FAC-2026-02.pdf",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": null
+    },
+    {
+      "id": "facture_output_fac_2026_03",
+      "label": "Invoice PDF FAC-2026-03",
+      "file_type": "document",
+      "source_file": "facture/output/FAC-2026-03.pdf",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": null
+    },
+    {
+      "id": "concept_invoice_data_structure",
+      "label": "Invoice/Delivery Data Structure",
+      "file_type": "concept",
+      "source_file": null,
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "The shared data model used by both templates, including company, client, items, and totals."
+    }
+  ],
+  "edges": [
+    {
+      "source": "bl_generer",
+      "target": "base64",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "BL/generer.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "bl_generer",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "BL/generer.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "bl_generer",
+      "target": "jinja2",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "BL/generer.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "bl_generer",
+      "target": "playwright_sync_api",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "BL/generer.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "bl_generer",
+      "target": "datetime",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "BL/generer.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "bl_generer",
+      "target": "config",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "BL/generer.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "bl_generer",
+      "target": "models_commandebl",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "BL/generer.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "bl_generer",
+      "target": "bl_generer_creer_bl_data",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "BL/generer.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "bl_generer_creer_bl_data",
+      "target": "models_commandebl_commandebl",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "BL/generer.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "bl_generer",
+      "target": "bl_generer_image_to_base64",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "BL/generer.py",
+      "source_location": "L50",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "bl_generer_image_to_base64",
+      "target": "bl_generer_py_path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "BL/generer.py",
+      "source_location": "L50",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "bl_generer",
+      "target": "bl_generer_render_html",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "BL/generer.py",
+      "source_location": "L58",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "bl_generer",
+      "target": "bl_generer_html_to_pdf",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "BL/generer.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "bl_generer_html_to_pdf",
+      "target": "bl_generer_py_path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "BL/generer.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "bl_generer",
+      "target": "bl_generer_generate_invoice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "BL/generer.py",
+      "source_location": "L95",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "bl_generer_generate_invoice",
+      "target": "bl_generer_creer_bl_data",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "BL/generer.py",
+      "source_location": "L98",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "bl_generer_generate_invoice",
+      "target": "bl_generer_image_to_base64",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "BL/generer.py",
+      "source_location": "L101",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "bl_generer_generate_invoice",
+      "target": "bl_generer_render_html",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "BL/generer.py",
+      "source_location": "L147",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "bl_generer_generate_invoice",
+      "target": "bl_generer_html_to_pdf",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "BL/generer.py",
+      "source_location": "L153",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "bl_generer_rationale_51",
+      "target": "bl_generer_image_to_base64",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "BL/generer.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_bl_agent",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/BL_agent.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_bl_agent",
+      "target": "logging",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/BL_agent.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_bl_agent",
+      "target": "idlelib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/BL_agent.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_bl_agent",
+      "target": "ai_prompts_bl_prompt",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/BL_agent.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_bl_agent",
+      "target": "models_commandefacture",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/BL_agent.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_bl_agent",
+      "target": "ai_agents_bl_agent_bl_agent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/BL_agent.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_bl_agent_bl_agent",
+      "target": "ai_agents_bl_agent_bl_agent_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/BL_agent.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_bl_agent_bl_agent",
+      "target": "ai_agents_bl_agent_bl_agent_extraire_commande",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/BL_agent.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_bl_agent_bl_agent_extraire_commande",
+      "target": "models_commandefacture_commandefacture",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/BL_agent.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_bl_agent_bl_agent",
+      "target": "ai_agents_bl_agent_bl_agent_creer_facture",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/BL_agent.py",
+      "source_location": "L78",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_bl_agent_bl_agent_creer_facture",
+      "target": "ai_agents_bl_agent_bl_agent_extraire_commande",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/BL_agent.py",
+      "source_location": "L86",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_invoice_agent",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/invoice_agent.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_invoice_agent",
+      "target": "logging",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/invoice_agent.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_invoice_agent",
+      "target": "ai_prompts_invoice_prompt",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/invoice_agent.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_invoice_agent",
+      "target": "models_commandefacture",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/invoice_agent.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_invoice_agent",
+      "target": "ai_agents_invoice_agent_invoiceagent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/invoice_agent.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_invoice_agent_invoiceagent",
+      "target": "ai_agents_invoice_agent_invoiceagent_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/invoice_agent.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_invoice_agent_invoiceagent",
+      "target": "ai_agents_invoice_agent_invoiceagent_extraire_commande",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/invoice_agent.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_invoice_agent_invoiceagent_extraire_commande",
+      "target": "models_commandefacture_commandefacture",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/invoice_agent.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_invoice_agent_invoiceagent",
+      "target": "ai_agents_invoice_agent_invoiceagent_creer_facture",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/invoice_agent.py",
+      "source_location": "L75",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_invoice_agent_invoiceagent_creer_facture",
+      "target": "ai_agents_invoice_agent_invoiceagent_extraire_commande",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/invoice_agent.py",
+      "source_location": "L83",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_manager_agent",
+      "target": "logging",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/manager_agent.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_manager_agent",
+      "target": "prompts_manager_prompt",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/manager_agent.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_manager_agent",
+      "target": "ai_agents_manager_agent_manageragent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/manager_agent.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_manager_agent_manageragent",
+      "target": "ai_agents_manager_agent_manageragent_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/manager_agent.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_manager_agent_manageragent",
+      "target": "ai_agents_manager_agent_manageragent_run",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/manager_agent.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_manager_agent_manageragent",
+      "target": "ai_agents_manager_agent_manageragent_detect_intent",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/manager_agent.py",
+      "source_location": "L124",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_manager_agent_manageragent_run",
+      "target": "ai_agents_manager_agent_manageragent_detect_intent",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/manager_agent.py",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_problem_solving_agent",
+      "target": "prompts_problem_solving_prompt",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/problem_solving_agent.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_problem_solving_agent",
+      "target": "ai_agents_problem_solving_agent_problemsolveragent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/problem_solving_agent.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_problem_solving_agent_problemsolveragent",
+      "target": "ai_agents_problem_solving_agent_problemsolveragent_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/problem_solving_agent.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_problem_solving_agent_problemsolveragent",
+      "target": "ai_agents_problem_solving_agent_problemsolveragent_run",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/problem_solving_agent.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_product_agent",
+      "target": "logging",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/product_agent.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_product_agent",
+      "target": "prompts_product_prompt",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/product_agent.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_product_agent",
+      "target": "ai_agents_product_agent_productagent",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/product_agent.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_product_agent_productagent",
+      "target": "ai_agents_product_agent_productagent_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/product_agent.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_product_agent_productagent",
+      "target": "ai_agents_product_agent_productagent_run",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/product_agent.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_product_agent_productagent",
+      "target": "ai_agents_product_agent_productagent_rechercher_produit",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/product_agent.py",
+      "source_location": "L48",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_product_agent_productagent",
+      "target": "ai_agents_product_agent_productagent_obtenir_prix",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/product_agent.py",
+      "source_location": "L87",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_gemini_service",
+      "target": "logging",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/gemini_service.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_gemini_service",
+      "target": "dotenv",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/gemini_service.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_gemini_service",
+      "target": "google",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/gemini_service.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_gemini_service",
+      "target": "ai_gemini_service_geminiservice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/gemini_service.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_gemini_service_geminiservice",
+      "target": "ai_gemini_service_geminiservice_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/gemini_service.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_gemini_service_geminiservice",
+      "target": "ai_gemini_service_geminiservice_chat",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/gemini_service.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_gemini_services",
+      "target": "json",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_gemini_services",
+      "target": "logging",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_gemini_services",
+      "target": "re",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_gemini_services",
+      "target": "google",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_gemini_services",
+      "target": "pydantic",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_gemini_services",
+      "target": "models_commandefacture",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_gemini_services",
+      "target": "models_produitcatalogue",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_gemini_services",
+      "target": "ai_gemini_services_geminiextractionerror",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_gemini_services_geminiextractionerror",
+      "target": "exception",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_gemini_services",
+      "target": "ai_gemini_services_geminiservice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L55",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_gemini_services_geminiservice",
+      "target": "ai_gemini_services_geminiservice_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L58",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_gemini_services_geminiservice",
+      "target": "ai_gemini_services_geminiservice_extraire_commande",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L64",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_gemini_services_geminiservice_extraire_commande",
+      "target": "models_produitcatalogue_produitcatalogue",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L64",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_gemini_services_geminiservice_extraire_commande",
+      "target": "models_commandefacture_commandefacture",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L64",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_gemini_services_geminiservice",
+      "target": "ai_gemini_services_geminiservice_construire_prompt",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L102",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_gemini_services_geminiservice_construire_prompt",
+      "target": "models_produitcatalogue_produitcatalogue",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L102",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_gemini_services_geminiservice",
+      "target": "ai_gemini_services_geminiservice_nettoyer_reponse",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L113",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_gemini_services_geminiservice_extraire_commande",
+      "target": "ai_gemini_services_geminiservice_construire_prompt",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L73",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_gemini_services_geminiservice_extraire_commande",
+      "target": "ai_gemini_services_geminiextractionerror",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L84",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_gemini_services_geminiservice_extraire_commande",
+      "target": "ai_gemini_services_geminiservice_nettoyer_reponse",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L86",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_gemini_services_rationale_1",
+      "target": "ai_gemini_services",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_gemini_services_rationale_30",
+      "target": "ai_gemini_services_geminiextractionerror",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_gemini_services_rationale_56",
+      "target": "ai_gemini_services_geminiservice",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_gemini_services_rationale_67",
+      "target": "ai_gemini_services_geminiservice_extraire_commande",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L67",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_tools_conversation_context",
+      "target": "dataclasses",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/tools/conversation_context.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_tools_conversation_context",
+      "target": "ai_tools_conversation_context_conversationcontext",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/tools/conversation_context.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_tools_conversation_context_conversationcontext",
+      "target": "ai_tools_conversation_context_conversationcontext_add_user_message",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/tools/conversation_context.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_tools_conversation_context_conversationcontext",
+      "target": "ai_tools_conversation_context_conversationcontext_add_assistant_message",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/tools/conversation_context.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_tools_tool",
+      "target": "services_facture_service",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/tools/tool.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_tools_tool",
+      "target": "repositories_produit_repository",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/tools/tool.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_tools_tool",
+      "target": "ai_tools_tool_prompt_maker",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/tools/tool.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_tools_tool",
+      "target": "ai_tools_tool_erptools",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/tools/tool.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_tools_tool_erptools",
+      "target": "ai_tools_tool_erptools_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/tools/tool.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_tools_tool_erptools",
+      "target": "ai_tools_tool_erptools_search_product",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/tools/tool.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_tools_tool_erptools",
+      "target": "ai_tools_tool_erptools_create_invoice",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/tools/tool.py",
+      "source_location": "L64",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "config",
+      "target": "os",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "config.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "config_rationale_1",
+      "target": "config",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "config.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "facture_generer",
+      "target": "base64",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "facture/generer.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "facture_generer",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "facture/generer.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "facture_generer",
+      "target": "jinja2",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "facture/generer.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "facture_generer",
+      "target": "playwright_sync_api",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "facture/generer.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "facture_generer",
+      "target": "datetime",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "facture/generer.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "facture_generer",
+      "target": "config",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "facture/generer.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "facture_generer",
+      "target": "models_commandefacture",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "facture/generer.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "facture_generer",
+      "target": "facture_generer_creer_facture_data",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "facture/generer.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "facture_generer_creer_facture_data",
+      "target": "models_commandefacture_commandefacture",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "facture/generer.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "facture_generer",
+      "target": "facture_generer_image_to_base64",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "facture/generer.py",
+      "source_location": "L50",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "facture_generer_image_to_base64",
+      "target": "facture_generer_py_path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "facture/generer.py",
+      "source_location": "L50",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "facture_generer",
+      "target": "facture_generer_render_html",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "facture/generer.py",
+      "source_location": "L58",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "facture_generer",
+      "target": "facture_generer_html_to_pdf",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "facture/generer.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "facture_generer_html_to_pdf",
+      "target": "facture_generer_py_path",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "facture/generer.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "facture_generer",
+      "target": "facture_generer_generate_invoice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "facture/generer.py",
+      "source_location": "L95",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "facture_generer_generate_invoice",
+      "target": "facture_generer_creer_facture_data",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "facture/generer.py",
+      "source_location": "L98",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "facture_generer_generate_invoice",
+      "target": "facture_generer_image_to_base64",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "facture/generer.py",
+      "source_location": "L101",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "facture_generer_generate_invoice",
+      "target": "facture_generer_render_html",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "facture/generer.py",
+      "source_location": "L147",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "facture_generer_generate_invoice",
+      "target": "facture_generer_html_to_pdf",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "facture/generer.py",
+      "source_location": "L153",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "facture_generer_rationale_51",
+      "target": "facture_generer_image_to_base64",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "facture/generer.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main",
+      "target": "openpyxl",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main",
+      "target": "ai_agents_bl_agent",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main",
+      "target": "ai_agents_problem_solving_agent",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main",
+      "target": "config",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main",
+      "target": "ai_gemini_service",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main",
+      "target": "repositories_produit_repository",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main",
+      "target": "repositories_facture_repository",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main",
+      "target": "repositories_bl_repository",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main",
+      "target": "services_client_service",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main",
+      "target": "services_facture_service",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main",
+      "target": "services_bl_service",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main",
+      "target": "ai_agents_invoice_agent",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main",
+      "target": "ai_agents_product_agent",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main",
+      "target": "ai_agents_manager_agent",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main",
+      "target": "ai_tools_conversation_context",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_article",
+      "target": "pydantic",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "models/Article.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_article",
+      "target": "models_article_article",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "models/Article.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_article_article",
+      "target": "models_article_py_basemodel",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "models/Article.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_article_article_nom_produit_non_vide",
+      "target": "models_article_py_field_validator",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "models/Article.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "models_article_article",
+      "target": "models_article_article_nom_produit_non_vide",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "models/Article.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_article_rationale_8",
+      "target": "models_article_article",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "models/Article.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_commandebl",
+      "target": "models_commandebl_py_enum",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "models/CommandeBL.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_commandebl",
+      "target": "pydantic",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "models/CommandeBL.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_commandebl",
+      "target": "models_article",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "models/CommandeBL.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_commandebl",
+      "target": "models_commandebl_devise",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "models/CommandeBL.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_commandebl_devise",
+      "target": "models_commandebl_py_str",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "models/CommandeBL.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_commandebl_devise",
+      "target": "models_commandebl_py_enum",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "models/CommandeBL.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_commandebl",
+      "target": "models_commandebl_commandebl",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "models/CommandeBL.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_commandebl_commandebl",
+      "target": "models_commandebl_py_basemodel",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "models/CommandeBL.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_commandebl_commandebl_client_non_vide",
+      "target": "models_commandebl_py_field_validator",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "models/CommandeBL.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "models_commandebl_commandebl",
+      "target": "models_commandebl_commandebl_client_non_vide",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "models/CommandeBL.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_commandebl_rationale_17",
+      "target": "models_commandebl_commandebl",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "models/CommandeBL.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_commandefacture",
+      "target": "models_commandefacture_py_enum",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "models/CommandeFacture.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_commandefacture",
+      "target": "pydantic",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "models/CommandeFacture.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_commandefacture",
+      "target": "models_article",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "models/CommandeFacture.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_commandefacture",
+      "target": "models_commandefacture_devise",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "models/CommandeFacture.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_commandefacture_devise",
+      "target": "models_commandefacture_py_str",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "models/CommandeFacture.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_commandefacture_devise",
+      "target": "models_commandefacture_py_enum",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "models/CommandeFacture.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_commandefacture",
+      "target": "models_commandefacture_commandefacture",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "models/CommandeFacture.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_commandefacture_commandefacture",
+      "target": "models_commandefacture_py_basemodel",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "models/CommandeFacture.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_commandefacture_commandefacture_client_non_vide",
+      "target": "models_commandefacture_py_field_validator",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "models/CommandeFacture.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast"
+    },
+    {
+      "source": "models_commandefacture_commandefacture",
+      "target": "models_commandefacture_commandefacture_client_non_vide",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "models/CommandeFacture.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_commandefacture_rationale_17",
+      "target": "models_commandefacture_commandefacture",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "models/CommandeFacture.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_produitcatalogue",
+      "target": "enum",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "models/ProduitCatalogue.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_produitcatalogue",
+      "target": "pydantic",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "models/ProduitCatalogue.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_produitcatalogue",
+      "target": "models_produitcatalogue_produitcatalogue",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "models/ProduitCatalogue.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_produitcatalogue_produitcatalogue",
+      "target": "models_produitcatalogue_py_basemodel",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "models/ProduitCatalogue.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_produitcatalogue_rationale_10",
+      "target": "models_produitcatalogue_produitcatalogue",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "models/ProduitCatalogue.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_client",
+      "target": "enum",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "models/client.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_client",
+      "target": "pydantic",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "models/client.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_client",
+      "target": "typing",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "models/client.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_client",
+      "target": "models_client_client",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "models/client.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_client_client",
+      "target": "models_client_py_basemodel",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "models/client.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_bl_repository",
+      "target": "datetime",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/BL_repository.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_bl_repository",
+      "target": "openpyxl_utils",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/BL_repository.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_bl_repository",
+      "target": "ai_gemini_service",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/BL_repository.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_bl_repository",
+      "target": "config",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/BL_repository.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_bl_repository",
+      "target": "utils",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/BL_repository.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_bl_repository",
+      "target": "repositories_bl_repository_blrepository",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/BL_repository.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_bl_repository_blrepository",
+      "target": "repositories_bl_repository_blrepository_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/BL_repository.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_bl_repository_blrepository",
+      "target": "repositories_bl_repository_blrepository_ajouter_bl",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/BL_repository.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_bl_repository_blrepository",
+      "target": "repositories_bl_repository_blrepository_prochaine_ref_bl",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/BL_repository.py",
+      "source_location": "L134",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_bl_repository_blrepository_ajouter_bl",
+      "target": "repositories_bl_repository_blrepository_prochaine_ref_bl",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/BL_repository.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_client_repository",
+      "target": "openpyxl_utils",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/client_repository.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_client_repository",
+      "target": "config",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/client_repository.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_client_repository",
+      "target": "utils",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/client_repository.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_client_repository",
+      "target": "models_client",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/client_repository.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_client_repository",
+      "target": "repositories_client_repository_clientrepository",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/client_repository.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_client_repository_clientrepository",
+      "target": "repositories_client_repository_clientrepository_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/client_repository.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_client_repository_clientrepository",
+      "target": "repositories_client_repository_clientrepository_find_by_name",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/client_repository.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_client_repository_clientrepository",
+      "target": "repositories_client_repository_clientrepository_update_balance",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/client_repository.py",
+      "source_location": "L46",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_client_repository_clientrepository",
+      "target": "repositories_client_repository_clientrepository_add",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/client_repository.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_client_repository_clientrepository_add",
+      "target": "models_client_client",
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/client_repository.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_facture_repository",
+      "target": "datetime",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/facture_repository.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_facture_repository",
+      "target": "openpyxl_utils",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/facture_repository.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_facture_repository",
+      "target": "ai_gemini_service",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/facture_repository.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_facture_repository",
+      "target": "config",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/facture_repository.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_facture_repository",
+      "target": "utils",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/facture_repository.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_facture_repository",
+      "target": "repositories_facture_repository_facturerepository",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/facture_repository.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_facture_repository_facturerepository",
+      "target": "repositories_facture_repository_facturerepository_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/facture_repository.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_facture_repository_facturerepository",
+      "target": "repositories_facture_repository_facturerepository_ajouter_facture",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/facture_repository.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_facture_repository_facturerepository",
+      "target": "repositories_facture_repository_facturerepository_prochaine_ref_facture",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/facture_repository.py",
+      "source_location": "L135",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_facture_repository_facturerepository_ajouter_facture",
+      "target": "repositories_facture_repository_facturerepository_prochaine_ref_facture",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/facture_repository.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_produit_repository",
+      "target": "config",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/produit_repository.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_produit_repository",
+      "target": "models_produitcatalogue",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/produit_repository.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_produit_repository",
+      "target": "ai_gemini_service",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/produit_repository.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_produit_repository",
+      "target": "utils",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/produit_repository.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_produit_repository",
+      "target": "openpyxl_utils",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/produit_repository.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_produit_repository",
+      "target": "repositories_produit_repository_produitrepository",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/produit_repository.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_produit_repository_produitrepository",
+      "target": "repositories_produit_repository_produitrepository_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/produit_repository.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_produit_repository_produitrepository",
+      "target": "repositories_produit_repository_produitrepository_get_all_produits",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/produit_repository.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_produit_repository_produitrepository_get_all_produits",
+      "target": "models_produitcatalogue_produitcatalogue",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/produit_repository.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_produit_repository_produitrepository",
+      "target": "repositories_produit_repository_produitrepository_rechercher_produit",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/produit_repository.py",
+      "source_location": "L134",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_produit_repository_produitrepository_rechercher_produit",
+      "target": "models_produitcatalogue_produitcatalogue",
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/produit_repository.py",
+      "source_location": "L134",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_produit_repository_produitrepository",
+      "target": "repositories_produit_repository_produitrepository_obtenir_produit",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/produit_repository.py",
+      "source_location": "L175",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_produit_repository_produitrepository_obtenir_produit",
+      "target": "models_produitcatalogue_produitcatalogue",
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/produit_repository.py",
+      "source_location": "L175",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_produit_repository_produitrepository",
+      "target": "repositories_produit_repository_produitrepository_obtenir_prix",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/produit_repository.py",
+      "source_location": "L203",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_produit_repository_produitrepository_rechercher_produit",
+      "target": "repositories_produit_repository_produitrepository_get_all_produits",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/produit_repository.py",
+      "source_location": "L139",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_produit_repository_produitrepository_obtenir_produit",
+      "target": "repositories_produit_repository_produitrepository_get_all_produits",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/produit_repository.py",
+      "source_location": "L180",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_produit_repository_produitrepository_obtenir_prix",
+      "target": "repositories_produit_repository_produitrepository_obtenir_produit",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/produit_repository.py",
+      "source_location": "L208",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "services_bl_service",
+      "target": "bl_generer",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/BL_service.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "services_bl_service",
+      "target": "services_bl_service_blservice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/BL_service.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "services_bl_service_blservice",
+      "target": "services_bl_service_blservice_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/BL_service.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "services_bl_service_blservice",
+      "target": "services_bl_service_blservice_creer_bl",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/BL_service.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "services_client_service",
+      "target": "models_client",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/client_service.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "services_client_service",
+      "target": "repositories_client_repository",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/client_service.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "services_client_service",
+      "target": "services_client_service_clientservice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/client_service.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "services_client_service_clientservice",
+      "target": "services_client_service_clientservice_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/client_service.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "services_client_service_clientservice",
+      "target": "services_client_service_clientservice_ajouter_client",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/client_service.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "services_facture_service",
+      "target": "facture_generer",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/facture_service.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "services_facture_service",
+      "target": "services_facture_service_factureservice",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "services/facture_service.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "services_facture_service_factureservice",
+      "target": "services_facture_service_factureservice_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/facture_service.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "services_facture_service_factureservice",
+      "target": "services_facture_service_factureservice_creer_facture",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "services/facture_service.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "utils",
+      "target": "openpyxl_utils",
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "utils.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "utils",
+      "target": "utils_trouver_table",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "utils.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "utils",
+      "target": "utils_find_first_row",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "utils.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "utils",
+      "target": "utils_col",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "utils.py",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "utils_rationale_5",
+      "target": "utils_trouver_table",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "utils.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "bl_generer",
+      "target": "models_commandebl_commandebl",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "BL/generer.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_bl_agent",
+      "target": "models_commandefacture_commandefacture",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/BL_agent.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_invoice_agent",
+      "target": "models_commandefacture_commandefacture",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/agents/invoice_agent.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_gemini_services",
+      "target": "models_commandefacture_commandefacture",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_gemini_services",
+      "target": "models_produitcatalogue_produitcatalogue",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_tools_tool",
+      "target": "services_facture_service_factureservice",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/tools/tool.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_tools_tool",
+      "target": "repositories_produit_repository_produitrepository",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "ai/tools/tool.py",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "facture_generer",
+      "target": "models_commandefacture_commandefacture",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "facture/generer.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main",
+      "target": "ai_agents_bl_agent_bl_agent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main",
+      "target": "ai_agents_problem_solving_agent_problemsolveragent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main",
+      "target": "ai_gemini_service_geminiservice",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main",
+      "target": "repositories_produit_repository_produitrepository",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main",
+      "target": "repositories_facture_repository_facturerepository",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main",
+      "target": "repositories_bl_repository_blrepository",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main",
+      "target": "services_client_service_clientservice",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main",
+      "target": "services_facture_service_factureservice",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main",
+      "target": "services_bl_service_blservice",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main",
+      "target": "ai_agents_invoice_agent_invoiceagent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main",
+      "target": "ai_agents_product_agent_productagent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main",
+      "target": "ai_agents_manager_agent_manageragent",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "main",
+      "target": "ai_tools_conversation_context_conversationcontext",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "main.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_commandebl",
+      "target": "models_article_article",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "models/CommandeBL.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_commandefacture",
+      "target": "models_article_article",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "models/CommandeFacture.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_bl_repository",
+      "target": "utils_trouver_table",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/BL_repository.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_bl_repository",
+      "target": "utils_col",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/BL_repository.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_bl_repository",
+      "target": "utils_find_first_row",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/BL_repository.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_client_repository",
+      "target": "utils_trouver_table",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/client_repository.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_client_repository",
+      "target": "utils_col",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/client_repository.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_client_repository",
+      "target": "utils_find_first_row",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/client_repository.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_client_repository",
+      "target": "models_client_client",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/client_repository.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_facture_repository",
+      "target": "utils_trouver_table",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/facture_repository.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_facture_repository",
+      "target": "utils_col",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/facture_repository.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_facture_repository",
+      "target": "utils_find_first_row",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/facture_repository.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_produit_repository",
+      "target": "models_produitcatalogue_produitcatalogue",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/produit_repository.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_produit_repository",
+      "target": "utils_col",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/produit_repository.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_produit_repository",
+      "target": "utils_trouver_table",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "repositories/produit_repository.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "services_bl_service",
+      "target": "bl_generer_generate_invoice",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/BL_service.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "services_client_service",
+      "target": "models_client_client",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/client_service.py",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "services_client_service",
+      "target": "repositories_client_repository_clientrepository",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/client_service.py",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "services_facture_service",
+      "target": "facture_generer_generate_invoice",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "services/facture_service.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "bl_generer_creer_bl_data",
+      "target": "models_commandebl_commandebl",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "BL/generer.py",
+      "source_location": "L11",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_bl_agent_bl_agent",
+      "target": "models_commandefacture_commandefacture",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "ai/agents/BL_agent.py",
+      "source_location": "L31",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_agents_invoice_agent_invoiceagent",
+      "target": "models_commandefacture_commandefacture",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "ai/agents/invoice_agent.py",
+      "source_location": "L30",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_gemini_services_geminiservice",
+      "target": "models_commandefacture_commandefacture",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L66",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "ai_gemini_services_geminiservice",
+      "target": "models_produitcatalogue_produitcatalogue",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "ai/gemini_services.py",
+      "source_location": "L65",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "facture_generer_creer_facture_data",
+      "target": "models_commandefacture_commandefacture",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "facture/generer.py",
+      "source_location": "L11",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_commandebl_commandebl",
+      "target": "models_article_article",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "models/CommandeBL.py",
+      "source_location": "L21",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "models_commandefacture_commandefacture",
+      "target": "models_article_article",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "models/CommandeFacture.py",
+      "source_location": "L21",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_client_repository_clientrepository",
+      "target": "models_client_client",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "repositories/client_repository.py",
+      "source_location": "L56",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_produit_repository_produitrepository",
+      "target": "models_produitcatalogue_produitcatalogue",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "repositories/produit_repository.py",
+      "source_location": "L26",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "services_client_service_clientservice",
+      "target": "models_client_client",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "services/client_service.py",
+      "source_location": "L27",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "services_client_service_clientservice",
+      "target": "repositories_client_repository_clientrepository",
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "services/client_service.py",
+      "source_location": "L10",
+      "weight": 0.8,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_bl_repository_blrepository_ajouter_bl",
+      "target": "utils_trouver_table",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "repositories/BL_repository.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_bl_repository_blrepository_ajouter_bl",
+      "target": "utils_col",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "repositories/BL_repository.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_bl_repository_blrepository_ajouter_bl",
+      "target": "utils_find_first_row",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "repositories/BL_repository.py",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_client_repository_clientrepository_init",
+      "target": "utils_trouver_table",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "repositories/client_repository.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_client_repository_clientrepository_init",
+      "target": "utils_col",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "repositories/client_repository.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_client_repository_clientrepository_add",
+      "target": "utils_find_first_row",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "repositories/client_repository.py",
+      "source_location": "L58",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_facture_repository_facturerepository_ajouter_facture",
+      "target": "utils_trouver_table",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "repositories/facture_repository.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_facture_repository_facturerepository_ajouter_facture",
+      "target": "utils_col",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "repositories/facture_repository.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_facture_repository_facturerepository_ajouter_facture",
+      "target": "utils_find_first_row",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "repositories/facture_repository.py",
+      "source_location": "L50",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_produit_repository_produitrepository_init",
+      "target": "utils_trouver_table",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "repositories/produit_repository.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "repositories_produit_repository_produitrepository_get_all_produits",
+      "target": "utils_col",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "repositories/produit_repository.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "services_bl_service_blservice_creer_bl",
+      "target": "bl_generer_generate_invoice",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/BL_service.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "services_client_service_clientservice_init",
+      "target": "repositories_client_repository_clientrepository",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/client_service.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "services_client_service_clientservice_ajouter_client",
+      "target": "models_client_client",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/client_service.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "services_facture_service_factureservice_creer_facture",
+      "target": "facture_generer_generate_invoice",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "services/facture_service.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "bl_templates_template",
+      "target": "concept_invoice_data_structure",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "BL/templates/template.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "facture_templates_template",
+      "target": "concept_invoice_data_structure",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "facture/templates/template.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "facture_output_fac_2026_02",
+      "target": "facture_templates_template",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "facture/output/FAC-2026-02.pdf",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "facture_output_fac_2026_03",
+      "target": "facture_templates_template",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "facture/output/FAC-2026-03.pdf",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "bl_templates_template",
+      "target": "facture_templates_template",
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "BL/templates/template.html",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "document_generation_system",
+      "label": "Document Generation System",
+      "nodes": [
+        "bl_templates_template",
+        "facture_templates_template",
+        "concept_invoice_data_structure"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "facture/templates/template.html"
+    }
+  ],
+  "input_tokens": 3387,
+  "output_tokens": 1318
+}

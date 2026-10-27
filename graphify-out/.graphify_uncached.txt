@@ -1,0 +1,4 @@
+C:\Users\yassi\Desktop\SmartErp\BL\templates\template.html
+C:\Users\yassi\Desktop\SmartErp\facture\templates\template.html
+C:\Users\yassi\Desktop\SmartErp\facture\output\FAC-2026-02.pdf
+C:\Users\yassi\Desktop\SmartErp\facture\output\FAC-2026-03.pdf

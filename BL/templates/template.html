@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Bon de livraison {{ invoice.reference }}</title>
+<style>{{ inline_css }}</style>
+</head>
+<body>
+
+    <div class="page">
+
+        <!-- Bandeau de marque -->
+        <div class="brand-band">
+            <div class="brand-left">
+                {% if logo_path %}<img src="{{ logo_path }}" alt="Logo" class="logo">{% endif %}
+                <div class="brand-name">{{ company.name }}</div>
+            </div>
+            <div class="brand-right">
+                <div class="invoice-label">Bon de livraison</div>
+                <div class="invoice-ref">{{ invoice.reference }}</div>
+            </div>
+        </div>
+
+        <!-- Statut + dates -->
+        <div class="meta-row">
+            <span class="status-badge status-{{ invoice.status|default('due') }}">
+                {{ invoice.status_label|default('EN ATTENTE DE PAIEMENT') }}
+            </span>
+            <div class="meta-dates">
+                <div><span>Émise le</span>{{ invoice.date }}</div>
+                <div><span>Échéance</span>{{ invoice.due_date }}</div>
+            </div>
+        </div>
+
+        <!-- Parties -->
+        <div class="parties">
+            <div class="party">
+                <h4>Émetteur</h4>
+                <p class="party-name">{{ company.name }}</p>
+                <p class="party-detail">{{ company.address }}</p>
+                <p class="party-detail">{{ company.email }}</p>
+                <p class="party-detail">{{ company.phone }}</p>
+            </div>
+            <div class="party">
+                <h4>Facturé à</h4>
+                <p class="party-name">{{ client.name }}</p>
+                <p class="party-detail">{{ client.address }}</p>
+                <p class="party-detail">{{ client.email }}</p>
+            </div>
+        </div>
+
+        <!-- Articles -->
+        <table class="items">
+            <thead>
+                <tr>
+                    <th class="col-desc">Désignation</th>
+                    <th class="col-num">Qté</th>
+                    <th class="col-num">Prix unitaire</th>
+                    <th class="col-num">Montant</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in items %}
+                <tr>
+                    <td class="col-desc">
+                        <span class="item-name">{{ item.name }}</span>
+                        {% if item.description %}<span class="item-sub">{{ item.description }}</span>{% endif %}
+                    </td>
+                    <td class="col-num">{{ item.qty }}</td>
+                    <td class="col-num">{{ "%.2f"|format(item.unit_price) }} {{ currency }}</td>
+                    <td class="col-num amount">{{ "%.2f"|format(item.qty * item.unit_price) }} {{ currency }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <!-- Totaux + Notes -->
+        <div class="bottom-row">
+            <div class="notes">
+                {% if notes %}
+                <h4>Remarques</h4>
+                <p>{{ notes }}</p>
+                {% endif %}
+                <h4>Coordonnées bancaires</h4>
+                <p>{{ company.bank_name }}<br>IBAN : {{ company.iban }}</p>
+            </div>
+
+            <div class="totals">
+                <div class="totals-line">
+                    <span>Sous-total</span>
+                    <span>{{ "%.2f"|format(subtotal) }} {{ currency }}</span>
+                </div>
+                <div class="totals-line">
+                    <span>TVA ({{ vat_rate }}%)</span>
+                    <span>{{ "%.2f"|format(vat_amount) }} {{ currency }}</span>
+                </div>
+                {% if discount %}
+                <div class="totals-line discount">
+                    <span>Remise</span>
+                    <span>-{{ "%.2f"|format(discount) }} {{ currency }}</span>
+                </div>
+                {% endif %}
+                <div class="totals-line grand">
+                    <span>Total à payer</span>
+                    <span>{{ "%.2f"|format(total) }} {{ currency }}</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pied de page -->
+        <div class="footer">
+            <div class="footer-line"></div>
+            <p>{{ company.name }} &nbsp;·&nbsp; {{ company.address }} &nbsp;·&nbsp; {{ company.email }} &nbsp;·&nbsp; {{ company.phone }}</p>
+            <p class="thanks">Merci pour votre confiance.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>

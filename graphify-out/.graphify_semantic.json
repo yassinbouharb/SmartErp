@@ -1,0 +1,136 @@
+{
+  "nodes": [
+    {
+      "id": "bl_templates_template",
+      "label": "Bon de Livraison Template",
+      "file_type": "code",
+      "source_file": "BL/templates/template.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "HTML template for generating delivery notes (Bon de livraison) using Jinja2-style placeholders."
+    },
+    {
+      "id": "facture_templates_template",
+      "label": "Facture Template",
+      "file_type": "code",
+      "source_file": "facture/templates/template.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "HTML template for generating invoices (Facture) using Jinja2-style placeholders."
+    },
+    {
+      "id": "facture_output_fac_2026_02",
+      "label": "Invoice PDF FAC-2026-02",
+      "file_type": "document",
+      "source_file": "facture/output/FAC-2026-02.pdf",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": null
+    },
+    {
+      "id": "facture_output_fac_2026_03",
+      "label": "Invoice PDF FAC-2026-03",
+      "file_type": "document",
+      "source_file": "facture/output/FAC-2026-03.pdf",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": null
+    },
+    {
+      "id": "concept_invoice_data_structure",
+      "label": "Invoice/Delivery Data Structure",
+      "file_type": "concept",
+      "source_file": null,
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "The shared data model used by both templates, including company, client, items, and totals."
+    }
+  ],
+  "edges": [
+    {
+      "source": "bl_templates_template",
+      "target": "concept_invoice_data_structure",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "BL/templates/template.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "facture_templates_template",
+      "target": "concept_invoice_data_structure",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "facture/templates/template.html",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "facture_output_fac_2026_02",
+      "target": "facture_templates_template",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "facture/output/FAC-2026-02.pdf",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "facture_output_fac_2026_03",
+      "target": "facture_templates_template",
+      "relation": "semantically_similar_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "facture/output/FAC-2026-03.pdf",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "bl_templates_template",
+      "target": "facture_templates_template",
+      "relation": "semantically_similar_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "BL/templates/template.html",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "document_generation_system",
+      "label": "Document Generation System",
+      "nodes": [
+        "bl_templates_template",
+        "facture_templates_template",
+        "concept_invoice_data_structure"
+      ],
+      "relation": "participate_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.95,
+      "source_file": "facture/templates/template.html"
+    }
+  ],
+  "input_tokens": 3387,
+  "output_tokens": 1318,
+  "failed_chunks": 0,
+  "out_of_scope_dropped": 0,
+  "uncovered_files": []
+}

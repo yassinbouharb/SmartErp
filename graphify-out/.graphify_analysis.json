@@ -1,0 +1,377 @@
+{
+  "communities": {
+    "0": [
+      "ai_gemini_service",
+      "ai_gemini_service_geminiservice",
+      "ai_gemini_service_geminiservice_chat",
+      "ai_gemini_service_geminiservice_init",
+      "config",
+      "config_rationale_1",
+      "datetime",
+      "dotenv",
+      "google",
+      "openpyxl_utils",
+      "os",
+      "repositories_bl_repository",
+      "repositories_bl_repository_blrepository",
+      "repositories_bl_repository_blrepository_ajouter_bl",
+      "repositories_bl_repository_blrepository_init",
+      "repositories_bl_repository_blrepository_prochaine_ref_bl",
+      "repositories_client_repository",
+      "repositories_client_repository_clientrepository_init",
+      "repositories_facture_repository",
+      "repositories_facture_repository_facturerepository",
+      "repositories_facture_repository_facturerepository_ajouter_facture",
+      "repositories_facture_repository_facturerepository_init",
+      "repositories_facture_repository_facturerepository_prochaine_ref_facture",
+      "repositories_produit_repository",
+      "utils",
+      "utils_col",
+      "utils_find_first_row",
+      "utils_rationale_5",
+      "utils_trouver_table"
+    ],
+    "1": [
+      "ai_agents_problem_solving_agent",
+      "ai_agents_problem_solving_agent_problemsolveragent",
+      "ai_agents_problem_solving_agent_problemsolveragent_init",
+      "ai_agents_problem_solving_agent_problemsolveragent_run",
+      "ai_agents_product_agent",
+      "ai_agents_product_agent_productagent",
+      "ai_agents_product_agent_productagent_init",
+      "ai_agents_product_agent_productagent_obtenir_prix",
+      "ai_agents_product_agent_productagent_rechercher_produit",
+      "ai_agents_product_agent_productagent_run",
+      "ai_prompts_problem_solving_prompt",
+      "ai_prompts_product_prompt",
+      "ai_tools_conversation_context",
+      "ai_tools_conversation_context_conversationcontext",
+      "ai_tools_conversation_context_conversationcontext_add_assistant_message",
+      "ai_tools_conversation_context_conversationcontext_add_user_message",
+      "ai_tools_tool",
+      "ai_tools_tool_erptools",
+      "ai_tools_tool_erptools_create_invoice",
+      "ai_tools_tool_erptools_init",
+      "ai_tools_tool_erptools_search_product",
+      "ai_tools_tool_prompt_maker",
+      "dataclasses",
+      "main",
+      "openpyxl",
+      "services_facture_service",
+      "services_facture_service_factureservice",
+      "services_facture_service_factureservice_init"
+    ],
+    "2": [
+      "ai_agents_bl_agent",
+      "ai_agents_bl_agent_bl_agent",
+      "ai_agents_bl_agent_bl_agent_creer_facture",
+      "ai_agents_bl_agent_bl_agent_extraire_commande",
+      "ai_agents_bl_agent_bl_agent_init",
+      "ai_agents_invoice_agent",
+      "ai_agents_invoice_agent_invoiceagent",
+      "ai_agents_invoice_agent_invoiceagent_creer_facture",
+      "ai_agents_invoice_agent_invoiceagent_extraire_commande",
+      "ai_agents_invoice_agent_invoiceagent_init",
+      "ai_agents_manager_agent",
+      "ai_agents_manager_agent_manageragent",
+      "ai_agents_manager_agent_manageragent_detect_intent",
+      "ai_agents_manager_agent_manageragent_init",
+      "ai_agents_manager_agent_manageragent_run",
+      "ai_prompts_bl_prompt",
+      "ai_prompts_invoice_prompt",
+      "ai_prompts_manager_prompt",
+      "idlelib",
+      "json",
+      "logging",
+      "models_commandefacture_commandefacture",
+      "models_commandefacture_commandefacture_client_non_vide",
+      "models_commandefacture_py_basemodel",
+      "models_commandefacture_py_field_validator",
+      "models_commandefacture_rationale_17"
+    ],
+    "3": [
+      "base64",
+      "bl_generer",
+      "bl_generer_creer_bl_data",
+      "bl_generer_generate_invoice",
+      "bl_generer_html_to_pdf",
+      "bl_generer_image_to_base64",
+      "bl_generer_py_path",
+      "bl_generer_rationale_51",
+      "bl_generer_render_html",
+      "facture_generer",
+      "facture_generer_creer_facture_data",
+      "facture_generer_generate_invoice",
+      "facture_generer_html_to_pdf",
+      "facture_generer_image_to_base64",
+      "facture_generer_py_path",
+      "facture_generer_rationale_51",
+      "facture_generer_render_html",
+      "jinja2",
+      "pathlib",
+      "playwright_sync_api",
+      "services_bl_service",
+      "services_bl_service_blservice",
+      "services_bl_service_blservice_creer_bl",
+      "services_bl_service_blservice_init",
+      "services_facture_service_factureservice_creer_facture"
+    ],
+    "4": [
+      "ai_gemini_services",
+      "ai_gemini_services_geminiextractionerror",
+      "ai_gemini_services_geminiservice",
+      "ai_gemini_services_geminiservice_construire_prompt",
+      "ai_gemini_services_geminiservice_extraire_commande",
+      "ai_gemini_services_geminiservice_init",
+      "ai_gemini_services_geminiservice_nettoyer_reponse",
+      "ai_gemini_services_rationale_1",
+      "ai_gemini_services_rationale_30",
+      "ai_gemini_services_rationale_56",
+      "ai_gemini_services_rationale_67",
+      "enum",
+      "exception",
+      "models_produitcatalogue",
+      "models_produitcatalogue_produitcatalogue",
+      "models_produitcatalogue_py_basemodel",
+      "models_produitcatalogue_rationale_10",
+      "re",
+      "repositories_produit_repository_produitrepository",
+      "repositories_produit_repository_produitrepository_get_all_produits",
+      "repositories_produit_repository_produitrepository_init",
+      "repositories_produit_repository_produitrepository_obtenir_prix",
+      "repositories_produit_repository_produitrepository_obtenir_produit",
+      "repositories_produit_repository_produitrepository_rechercher_produit"
+    ],
+    "5": [
+      "models_article",
+      "models_article_article",
+      "models_article_article_nom_produit_non_vide",
+      "models_article_py_basemodel",
+      "models_article_py_field_validator",
+      "models_article_rationale_8",
+      "models_commandebl",
+      "models_commandebl_commandebl",
+      "models_commandebl_commandebl_client_non_vide",
+      "models_commandebl_devise",
+      "models_commandebl_py_basemodel",
+      "models_commandebl_py_enum",
+      "models_commandebl_py_field_validator",
+      "models_commandebl_py_str",
+      "models_commandebl_rationale_17",
+      "models_commandefacture",
+      "models_commandefacture_devise",
+      "models_commandefacture_py_enum",
+      "models_commandefacture_py_str",
+      "pydantic"
+    ],
+    "6": [
+      "models_client",
+      "models_client_client",
+      "models_client_py_basemodel",
+      "repositories_client_repository_clientrepository",
+      "repositories_client_repository_clientrepository_add",
+      "repositories_client_repository_clientrepository_find_by_name",
+      "repositories_client_repository_clientrepository_update_balance",
+      "services_client_service",
+      "services_client_service_clientservice",
+      "services_client_service_clientservice_ajouter_client",
+      "services_client_service_clientservice_init",
+      "typing"
+    ],
+    "7": [
+      "bl_templates_template",
+      "concept_invoice_data_structure",
+      "facture_output_fac_2026_02",
+      "facture_output_fac_2026_03",
+      "facture_templates_template"
+    ],
+    "8": [
+      "ai_init"
+    ],
+    "9": [
+      "models_init"
+    ],
+    "10": [
+      "repositories_excel_repository"
+    ],
+    "11": [
+      "repositories_fournisseur_repository"
+    ],
+    "12": [
+      "repositories_init"
+    ],
+    "13": [
+      "repositories_stock_repository"
+    ],
+    "14": [
+      "repositories_vente_repository"
+    ],
+    "15": [
+      "services_init"
+    ]
+  },
+  "cohesion": {
+    "0": 0.14285714285714285,
+    "1": 0.08465608465608465,
+    "2": 0.10461538461538461,
+    "3": 0.13,
+    "4": 0.13043478260869565,
+    "5": 0.1368421052631579,
+    "6": 0.2727272727272727,
+    "7": 0.5,
+    "8": 1.0,
+    "9": 1.0,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0
+  },
+  "gods": [
+    {
+      "id": "models_commandefacture_commandefacture",
+      "label": "CommandeFacture",
+      "degree": 16
+    },
+    {
+      "id": "models_produitcatalogue_produitcatalogue",
+      "label": "ProduitCatalogue",
+      "degree": 12
+    },
+    {
+      "id": "utils_trouver_table",
+      "label": "trouver_table()",
+      "degree": 10
+    },
+    {
+      "id": "repositories_client_repository_clientrepository",
+      "label": "ClientRepository",
+      "degree": 9
+    },
+    {
+      "id": "repositories_produit_repository_produitrepository",
+      "label": "ProduitRepository",
+      "degree": 9
+    },
+    {
+      "id": "utils_col",
+      "label": "col()",
+      "degree": 9
+    },
+    {
+      "id": "ai_gemini_services_geminiservice",
+      "label": "GeminiService",
+      "degree": 8
+    },
+    {
+      "id": "models_article_article",
+      "label": "Article",
+      "degree": 8
+    },
+    {
+      "id": "models_client_client",
+      "label": "Client",
+      "degree": 8
+    },
+    {
+      "id": "bl_generer_generate_invoice",
+      "label": "generate_invoice()",
+      "degree": 7
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Invoice PDF FAC-2026-02",
+      "target": "Facture Template",
+      "source_files": [
+        "facture/output/FAC-2026-02.pdf",
+        "facture/templates/template.html"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (doc ↔ paper); semantically similar concepts with no structural link"
+    },
+    {
+      "source": "Invoice PDF FAC-2026-03",
+      "target": "Facture Template",
+      "source_files": [
+        "facture/output/FAC-2026-03.pdf",
+        "facture/templates/template.html"
+      ],
+      "confidence": "INFERRED",
+      "relation": "semantically_similar_to",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (doc ↔ paper); semantically similar concepts with no structural link"
+    },
+    {
+      "source": "creer_BL_data()",
+      "target": "CommandeBL",
+      "source_files": [
+        "BL/generer.py",
+        "models/CommandeBL.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "GeminiService",
+      "target": "CommandeFacture",
+      "source_files": [
+        "ai/gemini_services.py",
+        "models/CommandeFacture.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; bridges separate communities"
+    },
+    {
+      "source": "creer_facture_data()",
+      "target": "CommandeFacture",
+      "source_files": [
+        "facture/generer.py",
+        "models/CommandeFacture.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; bridges separate communities"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `CommandeFacture` connect `Community 2` to `Community 3`, `Community 4`, `Community 5`?",
+      "why": "High betweenness centrality (0.141) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Article` connect `Community 5` to `Community 2`?",
+      "why": "High betweenness centrality (0.065) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `ProduitCatalogue` connect `Community 4` to `Community 0`?",
+      "why": "High betweenness centrality (0.064) - this node is a cross-community bridge."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 5 inferred relationships involving `CommandeFacture` (e.g. with `BL_agent` and `InvoiceAgent`) actually correct?",
+      "why": "`CommandeFacture` has 5 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 2 inferred relationships involving `ProduitCatalogue` (e.g. with `GeminiService` and `ProduitRepository`) actually correct?",
+      "why": "`ProduitCatalogue` has 2 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 2 inferred relationships involving `ClientRepository` (e.g. with `Client` and `ClientService`) actually correct?",
+      "why": "`ClientRepository` has 2 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `Invoice PDF FAC-2026-02`, `Invoice PDF FAC-2026-03` to the rest of the system?",
+      "why": "2 weakly-connected nodes found - possible documentation gaps or missing edges."
+    }
+  ]
+}

@@ -1,0 +1,393 @@
+@page {
+    size: A4;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --color-background: #f8fafc;
+    --color-primary: #1e293b;
+    --color-secondary: #64748b;
+    --color-accent: #3b82f6;
+    --color-success: #10b981;
+    --color-warning: #f59e0b;
+    --color-error: #ef4444;
+    --color-border: #e2e8f0;
+    --color-muted: #94a3b8;
+    --color-muted-light: #f1f5f9;
+
+    --font-sans: 'Inter', 'system-ui', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-mono: 'JetBrains Mono', 'Consolas', 'Courier New', monospace;
+
+    --radius-sm: 4px;
+    --radius-md: 6px;
+    --radius-lg: 8px;
+    --radius-xl: 12px;
+
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-sans);
+    color: var(--color-primary);
+    font-size: 13px;
+    line-height: 1.6;
+    background-color: var(--color-background);
+    -webkit-font-smoothing: antialiased;
+}
+
+.page {
+    padding: 20mm 20mm 15mm;
+    background-color: white;
+    box-shadow: var(--shadow-lg);
+    margin: 10mm;
+}
+
+/* ===== Bandeau de marque ===== */
+.brand-band {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 24px;
+    margin-bottom: 28px;
+    border-bottom: 2px solid var(--color-primary);
+}
+
+.brand-left {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.logo {
+    max-height: 48px;
+    max-width: 130px;
+    object-fit: contain;
+    filter: drop-shadow(var(--shadow-sm));
+}
+
+.brand-name {
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    color: var(--color-primary);
+    background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.brand-right {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.invoice-label {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: var(--color-muted);
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+.invoice-ref {
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--color-primary);
+    letter-spacing: -0.5px;
+}
+
+/* ===== Statut + dates ===== */
+.meta-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 36px;
+    gap: 20px;
+}
+
+.status-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: var(--radius-lg);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    box-shadow: var(--shadow-sm);
+}
+
+.status-paid {
+    background-color: #dcfce7;
+    color: #16a34a;
+}
+
+.status-due {
+    background-color: #fef3c7;
+    color: #d97706;
+}
+
+.status-overdue {
+    background-color: #fee2e2;
+    color: #dc2626;
+}
+
+.meta-dates {
+    display: flex;
+    gap: 24px;
+    align-items: flex-end;
+}
+
+.meta-dates div {
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--color-primary);
+}
+
+.meta-dates span {
+    display: block;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: var(--color-muted);
+    margin-bottom: 2px;
+}
+
+/* ===== Parties ===== */
+.parties {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+    margin-bottom: 38px;
+}
+
+.party {
+    width: 50%;
+}
+
+.party h4 {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--color-muted);
+    margin: 0 0 6px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.party h4::before {
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background-color: var(--color-accent);
+    border-radius: 50%;
+}
+
+.party-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin: 0 0 4px;
+}
+
+.party-detail {
+    font-size: 12px;
+    color: var(--color-secondary);
+    margin: 0 0 2px;
+    line-height: 1.5;
+}
+
+/* ===== Tableau des articles ===== */
+table.items {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-bottom: 12px;
+    font-size: 12.5px;
+}
+
+table.items thead {
+    background-color: var(--color-muted-light);
+}
+
+table.items thead th {
+    text-align: left;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: var(--color-muted);
+    padding: 12px 10px;
+    border-bottom: 2px solid var(--color-primary);
+    position: relative;
+}
+
+table.items thead th::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, var(--color-accent), transparent);
+}
+
+table.items th.col-num,
+table.items td.col-num {
+    text-align: right;
+}
+
+table.items tbody td {
+    padding: 16px 10px;
+    border-bottom: 1px solid var(--color-border);
+    vertical-align: top;
+    color: var(--color-primary);
+}
+
+table.items tbody tr:last-child td {
+    border-bottom: none;
+}
+
+table.items tbody tr:hover td {
+    background-color: var(--color-muted-light);
+}
+
+.item-name {
+    display: block;
+    font-weight: 600;
+    color: var(--color-primary);
+    margin-bottom: 2px;
+}
+
+.item-sub {
+    display: block;
+    font-size: 11px;
+    color: var(--color-muted);
+}
+
+td.amount {
+    font-weight: 700;
+    color: var(--color-primary);
+    font-variant-numeric: tabular-nums;
+}
+
+/* ===== Ligne du bas : notes + totaux ===== */
+.bottom-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    margin-top: 32px;
+}
+
+.notes {
+    width: 55%;
+}
+
+.notes h4 {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--color-muted);
+    margin: 0 0 8px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.notes h4::before {
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background-color: var(--color-accent);
+    border-radius: 50%;
+}
+
+.notes p {
+    font-size: 12px;
+    color: var(--color-secondary);
+    line-height: 1.6;
+    margin: 0 0 16px;
+}
+
+.totals {
+    width: 280px;
+}
+
+.totals-line {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-size: 13px;
+    color: var(--color-secondary);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.totals-line.discount {
+    color: #10b981;
+}
+
+.totals-line.grand {
+    border-bottom: none;
+    border-top: 3px solid var(--color-primary);
+    margin-top: 8px;
+    padding-top: 16px;
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--color-primary);
+}
+
+/* ===== Pied de page ===== */
+.footer {
+    margin-top: 48px;
+    text-align: center;
+    padding-top: 24px;
+    border-top: 1px solid var(--color-border);
+}
+
+.footer-line {
+    height: 1px;
+    background: var(--color-border);
+    margin-bottom: 16px;
+}
+
+.footer p {
+    font-size: 11px;
+    color: var(--color-muted);
+    margin: 0 0 4px;
+}
+
+.footer .thanks {
+    font-weight: 600;
+    color: var(--color-primary);
+    margin-top: 8px;
+    font-size: 12px;
+}
+
+/* Responsive adjustments for printing */
+@media print {
+    body {
+        background-color: white;
+    }
+
+    .page {
+        box-shadow: none;
+        margin: 0;
+    }
+}
