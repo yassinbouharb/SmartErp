@@ -9,15 +9,7 @@ import os
 # ----------------------------------------------------------------------
 # Chemin vers ton fichier Excel ERP
 # ----------------------------------------------------------------------
-# Sur Windows, ton Desktop est en général : C:\Users\TON_NOM_UTILISATEUR\Desktop
-# os.path.expanduser("~") récupère automatiquement ton dossier utilisateur,
-# donc pas besoin de taper le chemin complet à la main.
-
-FICHIER_ERP = os.path.join(
-    os.path.expanduser("~"),
-    "Desktop/L",
-    "ERP_Gestion.xlsx"
-)
+FICHIER_ERP = "/home/ubuntu/SmartErp/ERP_Gestion.xlsx"
 
 # ----------------------------------------------------------------------
 # Noms des tables / feuilles dans ton classeur
@@ -40,5 +32,3 @@ COMPANY_INFO = {
     "email": "Tunisiesanitaire@gmail.com",
     "phone": "+216 52200000"
 }
-
-
