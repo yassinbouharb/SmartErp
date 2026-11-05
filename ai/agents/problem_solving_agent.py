@@ -1,4 +1,4 @@
-from prompts.problem_solving_prompt import PROBLEM_SOLVING_PROMPT
+from ai.prompts.problem_solving_prompt import PROBLEM_SOLVING_PROMPT
 
 
 class ProblemSolverAgent:

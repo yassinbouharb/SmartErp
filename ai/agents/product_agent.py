@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import logging
 
-from prompts.product_prompt import PRODUCT_PROMPT
+from ai.prompts.product_prompt import PRODUCT_PROMPT
 
 
 log = logging.getLogger(__name__)

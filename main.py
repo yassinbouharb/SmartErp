@@ -1,6 +1,6 @@
 ﻿from openpyxl import load_workbook
 
-from agents.client_agent import ClientAgent
+from ai.agents.client_agent import ClientAgent
 from ai.agents.BL_agent import BL_agent
 from ai.agents.problem_solving_agent import ProblemSolverAgent
 from config import FICHIER_ERP
@@ -58,7 +58,7 @@ try:
     
     bl_service = BLService(
         produit_repository,
-        facture_repository,
+        bl_repository,
         client_service
     )
     
@@ -120,7 +120,7 @@ try:
     # Chat ERP
     # ==================================================
     
-    print("ðŸ¤– SmartERP Agent dÃ©marrÃ©")
+    print("🤖 SmartERP Agent démarré")
     print("Tape 'exit' pour quitter.\n")
     
 except Exception as e:

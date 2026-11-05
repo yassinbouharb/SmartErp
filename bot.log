@@ -1,0 +1,24 @@
+INFO:__main__:SmartErp Telegram bot initialized with 3 products
+INFO:__main__:Starting SmartErp Telegram bot...
+[ClientRepository] Feuille=Clients | Table=TblClients | Ref=A3:G13
+[ClientRepository] Lignes clients : 4 -> 13
+Traceback (most recent call last):
+  File "C:\Users\yassi\Desktop\SmartErp\telegram\bot.py", line 356, in <module>
+    asyncio.run(main())
+    ~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\yassi\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\yassi\AppData\Local\Programs\Python\Python313\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\yassi\AppData\Local\Programs\Python\Python313\Lib\asyncio\base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\yassi\Desktop\SmartErp\telegram\bot.py", line 350, in main
+    print("\U0001f916 Bot démarré ! Envoyez /start sur Telegram")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yassi\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f916' in position 0: character maps to <undefined>

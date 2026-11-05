@@ -2,8 +2,7 @@ from __future__ import annotations
 
 import logging
 
-from models import client
-from prompts.manager_prompt import MANAGER_PROMPT
+from ai.prompts.manager_prompt import MANAGER_PROMPT
 
 log = logging.getLogger(__name__)
 
@@ -19,7 +18,6 @@ class ManagerAgent:
         client_agent,
         problem_solver_agent=None,
     ):
-
         self.BL_agent = BL_agent
         self.gemini = gemini_service
 
@@ -34,88 +32,68 @@ class ManagerAgent:
         message,
         context
     ):
-
-        # Récupération des données depuis le contexte
         catalogue = context.catalogue
         history = context.history
 
-        # Détection de l'intention
         agent_name = self.detect_intent(message)
-
-        print("agent name:", agent_name)
 
         log.info(
             "Agent choisi : %s",
             agent_name
         )
 
-        # =========================
-        # FACTURE
-        # =========================
-
+        # =========================================================
+        # FACTURE (création + lecture + modification + suppression)
+        # =========================================================
         if agent_name == "invoice":
-            client_data=self.client_agent.getclient(message)
-            return self.invoice_agent.creer_facture(
-                message,
-                catalogue,
-                client_data
+            client_data = self.client_agent.getclient(message)
+            return self.invoice_agent.run(
+                message=message,
+                catalogue=catalogue,
+                client=client_data,
+                history=history
             )
 
-        # =========================
+        # =========================================================
+        # BL (création + lecture + modification + suppression)
+        # =========================================================
+        elif agent_name == "bl":
+            if self.BL_agent:
+                return self.BL_agent.run(
+                    message=message,
+                    catalogue=catalogue,
+                    history=history
+                )
+
+        # =========================================================
         # PRODUIT
-        # =========================
-
+        # =========================================================
         elif agent_name == "product":
-
             if self.product_agent:
-                self.client_agent.getclient()
                 return self.product_agent.run(
                     message=message,
                     history=history
                 )
 
-        # =========================
+        # =========================================================
         # CLIENT
-        # =========================
-
+        # =========================================================
         elif agent_name == "client":
             if self.client_agent:
-
                 return self.client_agent.run(
                     message=message,
                     history=history
                 )
 
-        # =========================
-        # BON DE LIVRAISON
-        # =========================
-
-        elif agent_name == "bl":
-
-
-            if self.BL_agent:
-
-                return self.BL_agent.run(
-                    message=message,
-                    history=history
-                )
-
-        # =========================
+        # =========================================================
         # PROBLEM SOLVER
-        # =========================
-
+        # =========================================================
         elif agent_name == "unknown":
-
             if self.problem_solver_agent:
-
                 return self.problem_solver_agent.run(
                     message=message,
                     history=history
                 )
-
-        # =========================
-        # FALLBACK
-        # =========================
 
         return {
             "message": "Je n'ai pas compris votre demande."
@@ -125,7 +103,6 @@ class ManagerAgent:
         self,
         message
     ):
-
         prompt = f"""
 {MANAGER_PROMPT}
 
@@ -135,5 +112,4 @@ Message utilisateur:
 """
 
         response = self.gemini.chat(prompt)
-
         return response.text.strip().lower()
