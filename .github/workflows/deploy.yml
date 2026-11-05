@@ -1,0 +1,26 @@
+name: Deploy to Server
+
+on:
+  push:
+    branches: [main, master]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@master
+        with:
+          host: 57.129.179.84
+          username: ubuntu
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            cd /home/ubuntu/SmartErp
+            git pull origin main
+            source venv/bin/activate
+            pip install -r requirements.txt 2>/dev/null || true
+            sudo systemctl restart smarterp-bot
+            echo "✅ Deployed at $(date)"
