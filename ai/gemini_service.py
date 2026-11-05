@@ -16,7 +16,7 @@ class GeminiService:
 
     def __init__(
         self,
-        model: str = "gemini-2.0-flash-lite"
+        model: str = "gemini-3.8-flash"
     ):
         self.model = model
         self.client = genai.Client()
